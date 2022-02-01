@@ -152,3 +152,26 @@ off of them.
 1. How do I index a nested list? For example if I want to grab 2 from [1,1,[1,2]]?
 
 You would just add another set of brackets for indexing the nested list, for example: my_list[2][1] . We'll discover later on more nested objects and you will be quizzed on them later!
+
+
+***** Dictionaries
+
+- Dictionaries are unordered mappings for storing objects.
+Previously we saw how lists store objects in an ordered sequence.
+
+- This key-value pair allows users to quickly grab objects without needing to know an index location.
+
+- Dictionaries use curly braces and colons to signify the keys and their associated values.
+
+{key1:value1,key2:value2}
+
+- So when to choose a list and when to choose a dictionary?
+Dictionaries: Objects retrieved by key name. Unordered and can not be sorted.
+
+Lists: Objects retreived by location. Ordered sequence can be indexed or sliced.
+
+Dictionaries FAQ
+
+1. Do dictionaries keep an order? How do I print the values of the dictionary in order?
+
+Dictionaries are mappings and do not retain order! If you do want the capabilities of a dictionary but you would like ordering as well, check out the ordereddict object lecture later on in the course!
