@@ -1,0 +1,98 @@
+Session 2 - Python Objects and data structure basics
+-----------------------------------------------------
+
+***** Introduction to python data types
+- Basic Data types
+Integers
+Floating point
+strings
+lists
+Dictionaries
+Tuples
+sets
+booleans
+
+
+***** Numbers
+There are two main number types we will work with
+- Integers which are whole numbers
+- Floating point numbers which are numbers with a 
+decimal
+- Lets explore basic math with python
+- We will also discuss how to create variables and 
+assign them values.
+
+
+***** Variable assignments
+- We just saw how to work with numbers, but what do these
+numbers represent
+- It would be nice to assign these data types a variable name to easily reference them later on in our code
+- For example
+mu_dogs = 2
+
+- Rules for variable names
+Names can not start with a number
+There can be no spaces in the name, use '_' instead
+Can't use any of these symbols (:::,<>/>|()!@#$%^&*~-+)
+It is considered best practise (PEP8) that names are lowercase
+Avoid using words that have special meaning in Python like
+"list" and "str"
+
+We can dynamically assign variables with different data type values.
+
+Pros of Dynamic typing
+- Very easy to work with
+- Faster development time
+
+Cons of Dynamic typing
+- May result in bugs for unexpected data types
+- You need to be aware of type()
+
+
+***** strings
+Strings are sequences of characters, using the syntax of 
+either single quotes or double quotes
+- 'hello'
+- "Hello"
+- "I dont do that"
+
+- Because strings are ordered sequences it means we can using 
+indexing and slicing to grab sub-sections of the strings
+
+- Indexing notation uses [] notation after the string (or variable)
+assigned the string.)
+
+- Indexing allows you to grab a single character from the 
+string.
+
+- These actions use [] square brackets and a number index
+to indicate positions of what you with to grab
+
+Character: h e l l o
+Index:     0 1 2 3 4
+Reverse Index: 0 -4 -3 -2 -1
+
+- Slicing allows you to grab a subsection of multiple
+characters, a "slice" of the string.
+
+- This has the following syntax:
+[start:stop:step]
+
+- Start is a numerical index for the slice start.
+
+- Stop is the index you will go up to (but not include)
+
+- Step is the size of the jump you take
+
+
+***** String indexing and Slicing
+
+
+***** String properties and methods
+Immutability - String does not allow item re-assignement.
+
+1. Are strings mutable?
+Strings are not mutable! (meaning you can't use indexing to change individual elements of a string)
+
+2. How do I create comments in my code?
+You can use the hashtag # to create comments in your code
